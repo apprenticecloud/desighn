@@ -9,7 +9,44 @@
     font-size: large;
 }
 .logo2{
-    color: aqua;
+    color: #2d9bf0;
     font-weight: bold;
     font-size: large;
+}
+
+.user-logo {
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 2px solid #2d9bf0;
+    padding: 2px;
+}
+
+.body {
+    height: calc(100vh - 65px);
+}
+
+.left-side, .right-side {
+    height: 60%;
+}
+
+.bg {
+    background-color: #2d9bf0;
+}
+
+.p-horiz {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.left-side-h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.right-side-h2 {
+    font-weight: 500;
+    color: #2d9bf0;
+    font-size: 35px;
 }
